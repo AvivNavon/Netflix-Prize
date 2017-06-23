@@ -1,12 +1,18 @@
 # Netflix Prize
 
-Welcome :)
+Dana Kaner ([link to git](https://github.com/danakaner))
+Dor Bank ([link to git](https://github.com/dorbank))
+Aviv Navon ([link to git](https://github.com/avivnavon))
 
-This is a private repository. 
+## Statistical Learning, Spring 2017, TAU - Class competition
 
+The Net?ix Prize was a competition to predict user ratings of movies. Net?ix provided ratings of 17770 movie titles by 480189 users, along with the date of each rating. The task was to predict ratings for 282000 user-movie-date triples that are not in the training set; all the users and movies in this test set appear in the training set. For more details: www.netflixprize.com
 
-## Some more ideas
+This class competition is a simplified version of the original Netflix Prize:
+The training data provide the ratings of 10,000 users for 99 movies, along with the dates at which the ratings were made. The outcome is the rating that each user gave to a further movie (?Miss Congeniality?,2000).
 
-1. SVD++ - a matrix factorization method: we can use this on the initial data set (with missing values). There's a Python implementation here: https://github.com/NicolasHug/Surprise
+The task is to predict the rating for this movie by a further 2931 users in the test set. 
 
-2. RBM: this method was used in the actual Netflix competition, and might give good results: https://github.com/echen/restricted-boltzmann-machines
+As with the Net?ix Prize, performance will be measured by root mean squared error (RMSE) on the test set.
+
+We where the winners of this competition at 0.7591.
