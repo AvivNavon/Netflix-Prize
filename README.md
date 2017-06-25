@@ -1,8 +1,8 @@
 # Netflix Prize
 
-([Dana Kaner](https://github.com/danakaner)),
-([Dor Bank](https://github.com/dorbank)),
-([Aviv Navon](https://github.com/avivnavon))
+[Dana Kaner](https://github.com/danakaner),
+[Dor Bank](https://github.com/dorbank),
+[Aviv Navon](https://github.com/avivnavon)
 
 ## Statistical Learning, Spring 2017, TAU - Class competition
 
